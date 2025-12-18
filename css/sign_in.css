@@ -1,0 +1,80 @@
+body {
+    background-image: url('../img/sign in BI.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height:100%;
+    
+}
+
+.login-box {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #fafbfb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgb(138, 168, 199);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.login-box p, a {
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.user-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 35px;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #333;
+    pointer-events: none;
+    transition: 0.5s;
+    font-family: Arial, sans-serif; 
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #7a1509;
+    font-size: 20px;
+}
+
+.login-box form button {
+    background-color: #06196c;
+    border: none;
+    color: white;
+    padding: 14px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+}
