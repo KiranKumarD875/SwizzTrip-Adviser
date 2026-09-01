@@ -33,13 +33,15 @@
                     <h2 class="auth-title">Welcome Back</h2>
                     <p class="auth-subtitle">Sign in to your account</p>
                     <form id="loginForm">
-                        <div class="form-group">
-                            <input type="email" id="loginEmail" class="form-control" placeholder="Email" required>
+                        <div class="user-box">
+                            <input type="email" id="loginEmail" name="email" required="">
+                            <label>Email</label>
                         </div>
-                        <div class="form-group">
-                            <input type="password" id="loginPassword" class="form-control" placeholder="Password" required>
+                        <div class="user-box">
+                            <input type="password" id="loginPassword" name="password" required="">
+                            <label>Password</label>
                         </div>
-                        <button type="submit" class="btn btn-auth">Sign In</button>
+                        <button type="submit" class="btn-auth">Sign In</button>
                     </form>
                     <p class="switch-text">Don't have an account? <span onclick="flipCard()">Sign up here</span></p>
                     <div id="loginMessage" class="mt-3"></div>
@@ -50,16 +52,19 @@
                     <h2 class="auth-title">Create Account</h2>
                     <p class="auth-subtitle">Join us for your next adventure</p>
                     <form id="signupForm">
-                        <div class="form-group">
-                            <input type="text" id="signupName" class="form-control" placeholder="Full Name" required>
+                        <div class="user-box">
+                            <input type="text" id="signupName" name="name" required="">
+                            <label>Full Name</label>
                         </div>
-                        <div class="form-group">
-                            <input type="email" id="signupEmail" class="form-control" placeholder="Email" required>
+                        <div class="user-box">
+                            <input type="email" id="signupEmail" name="email" required="">
+                            <label>Email</label>
                         </div>
-                        <div class="form-group">
-                            <input type="password" id="signupPassword" class="form-control" placeholder="Password" required>
+                        <div class="user-box">
+                            <input type="password" id="signupPassword" name="password" required="">
+                            <label>Password</label>
                         </div>
-                        <button type="submit" class="btn btn-auth">Sign Up</button>
+                        <button type="submit" class="btn-auth">Sign Up</button>
                     </form>
                     <p class="switch-text">Already have an account? <span onclick="flipCard()">Sign in here</span></p>
                     <div id="signupMessage" class="mt-3"></div>
