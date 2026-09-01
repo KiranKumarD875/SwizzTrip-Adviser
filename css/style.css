@@ -92,7 +92,7 @@ header::before {
 
 nav {
     z-index: 2;
-    background: rgba(27, 38, 49, 1);
+    background: transparent;
     height: 120px;
     transition: all .4s ease-in;
 }
