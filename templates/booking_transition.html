@@ -32,7 +32,7 @@
         <div class="ticket-container" id="ticketContainer">
             <div class="ticket">
                 <div class="ticket-header">
-                    <h2>Booking Confirmation</h2>
+                    <h2>Booking Details</h2>
                 </div>
                 <div class="ticket-body">
                     <p class="label">Passenger</p>
@@ -40,10 +40,36 @@
                     
                     <p class="label">Destination Hotel</p>
                     <h3 id="hotelName" class="hotel-title">Loading...</h3>
+
+                    <div class="input-group">
+                        <div class="input-field">
+                            <label>Check-in</label>
+                            <input type="date" id="checkinDate" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Check-out</label>
+                            <input type="date" id="checkoutDate" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-field">
+                            <label>Guests</label>
+                            <input type="number" id="guestCount" min="1" max="10" value="2" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Room Type</label>
+                            <select id="roomType">
+                                <option value="standard">Standard</option>
+                                <option value="deluxe">Deluxe</option>
+                                <option value="suite">Suite</option>
+                            </select>
+                        </div>
+                    </div>
                     
                     <div class="ticket-details">
                         <div>
-                            <p class="label">Date</p>
+                            <p class="label">Booking Date</p>
                             <p id="currentDate">Today</p>
                         </div>
                         <div>
