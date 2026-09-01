@@ -69,6 +69,12 @@
     </div>
 
     <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            if (localStorage.getItem("swizz_token")) {
+                window.location.href = "/";
+            }
+        });
+
         function flipCard() {
             const card = document.getElementById('authCard');
             card.classList.toggle('is-flipped');
