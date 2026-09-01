@@ -4,7 +4,7 @@
     { "source": "/About_Swizz.html", "destination": "/templates/About_Swizz.html" },
     { "source": "/accomodation.html", "destination": "/templates/accomodation.html" },
     { "source": "/booking_transition.html", "destination": "/templates/booking_transition.html" },
-    { "source": "/sign_in.html", "destination": "/templates/sign_in.html" },
+    
     { "source": "/sign_up.html", "destination": "/templates/sign_up.html" }
   ]
 }
